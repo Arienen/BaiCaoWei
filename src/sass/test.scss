@@ -1,0 +1,8 @@
+$bgColor : #f60;
+$bigFont:16px;
+body,div{
+	color:$bgColor;
+}
+@for $i from 1 through 6{
+	h#{$i}{ font-size: $bigFont * $i}
+}

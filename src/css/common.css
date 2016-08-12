@@ -1,0 +1,167 @@
+/*nav*/
+.navWrap{width: 100%;height: 32px;background-color: #f2f2f2;}
+.nav{width: 1190px;position: relative;}
+.nav ul li{float: left;height: 32px;}
+.nav ul li a{width: 82px; border-left: 2px solid #e7e0e7; height: 14px;display: block;text-align: center;margin-top: 9px;}
+.nav ul li .contactService{width: 100px;}
+.nav ul li .appDownload{width: 94px;}
+.nav ul li:last-of-type a{border-right: 2px solid #e7e0e7;}
+.nav p{float: left;line-height: 32px;}
+.nav .firstline{margin-left: 17px;}
+.nav .firstline a{color: #d4362a; text-decoration: underline;}
+.freeToLogin{margin-left: 34px;}
+.freeToLogin a:hover,.navlist:hover{color: #d4362a; text-decoration: underline;}
+.nav ul{position: absolute;left: auto;right: 7px;}
+
+.serviceBox,.appDownloadBox,.moreBox{position: absolute;background-color: #fff;border: 1px solid #e7e0e7;width: 102px;height: 66px;top: 0;display: none;z-index: 5;}
+.serviceBox p,.appDownloadBox p,.moreBox p{line-height: 16px;width: 102px;text-align: center;margin-left: 0;}
+.serviceBox p:first-of-type,.appDownloadBox p:first-of-type,.moreBox p{line-height: 30px;}
+.serviceBox .teleNum{font-weight: bold;}
+.contactService span,.serviceBox span,.appDownload span,.appDownloadBox span,.moreBox span,.more span{width: 9px;height: 5px;background:url(../img/index/icon1.png) no-repeat -200px -271px;display: inline-block;margin: 0 0 2px 10px;}
+.appDownloadBox{width: 96px;height: 102px;}
+.appDownloadBox img{width: 68px;height: 68px;margin-left: 14px;}
+.moreBox{width: 74px; height: 105px;}
+.nav .moreBox ul li{height: 22px;}
+.nav .moreBox ul li a{margin: 0;padding: 0;border: 0;width: 74px;height: 22px;text-align: center;}
+.nav .moreBox ul li a:hover{color: #d4362a;}
+.moreBox p{width: 74px;}
+.moreBox ul{margin-top: 32px;}
+
+
+/*logo*/
+.logoWrap{height: 134px;padding-top: 21px;}
+.logo{width: 1190px;height: 90px;background-color: #fff;}
+.logoImg{float: left;}
+.searchDiv{width: 496px;float: left;margin: 24px 0 0 142px;position: relative;}
+.searchBox{width: 387px;height: 42px;border: 0;border: 2px solid #d13926;padding-left: 15px; outline: none;}
+.searchDiv span{background-color: #f3f3f3;color: #a9a9a9;height: 20px;line-height: 20px;display: inline-block;padding: 0 2px;position: absolute;}
+.searchDiv .first{top: 14px; left: 304px;}
+.searchDiv .second{top: 14px; left: 336px;}
+.search{width: 90px;height: 48px;background-color: #d13926;color: #fff;outline: none;border: 0;cursor: pointer;font-size: 20px;font-family: "微软雅黑";position: absolute;top: 0;left: auto;right: 0;}
+
+.shoppingcart{width: 107px;height: 40px;border: 1px solid #dfdfdf; background-color: #f9f9f9;float: right;margin: 24px 15px 0 0;cursor: pointer;padding-left: 19px;position: relative;}
+.shoppingIcon{width: 22px;height: 17px;background: url(../img/index/icon1.png) -290px -202px;display: inline-block;margin-top: 12px;float: left;}
+.shoppingcart a{float: left;line-height: 40px;height: 40px;margin-left: 5px;display: block;}
+.counts{width: 16px;height: 16px;color: #fff;background-color: #d13926;display: inline-block;text-align: center;line-height: 16px;border-radius: 5px;border-bottom-left-radius: 0;position: absolute;top: -5px;right: 10px;left: auto;}
+
+
+/*Banner*/
+.bannerWrap{width: 100%;height: 585px;}
+.bannerTopWrap{width: 100%; height: 72px;border-bottom: 1px solid #d4362a;}
+.bannerTop{width: 1190px; height: 72px;overflow: hidden;}
+.allClassfy{width: 207px;height: 48px;color: #fff;font-size: 18px;padding: 0 20px;background: #d4362a url(../img/index/allClassBg.jpg) no-repeat 205px center ;line-height: 48px;float: left;margin-top: 24px;}
+.bannerList{overflow: hidden;position: relative;}
+.bannerList ul{float: left;}
+.bannerList ul li{float: left;margin-left: 42px;height: 44px; line-height: 44px;font-size: 20px;margin-top: 23px;}
+.bannerList ul li a:hover{color: #d4362a;}
+#active{border-bottom: 5px solid #d4362a;}
+.borderSpan{height: 5px;background:#d4362a;position: absolute; top: auto;bottom:0;left: 289px; display: none;}
+.czcard,.thcard{overflow: hidden;}
+.czcard span,.thcard span{width: 140px;height: 44px;float: left;}
+.czcard span{background: url(../img/index/czcard.png);}
+.thcard span{background: url(../img/index/thcard.png);}
+.cards{float: right;margin:28px 0 0 0;}
+
+
+/*rightSide*/
+.rightSideWrap{width: 35px;height: 100%;background-color: #000;position: fixed;right: 0;top: 0;left: auto;}
+.rightSide{width: 35px;height: 432px;background-color: #000;position: absolute;top: auto;bottom: 0;padding-top: 208px;color: #fff;}
+.person{cursor: pointer;width: 35px;height: 35px;}
+.person i{width: 20px;height: 20px;display: inline-block;background:url(../img/index/bar_icon.png) -73px -10px;margin:5px 0 0 9px;}
+.shoppingCart{width: 35px;margin:23px 0 0 0px;height: 142px;border-top: 1px solid #292929;border-bottom: 1px solid #292929;padding-top: 13px;cursor: pointer;line-height: 28px;text-align: center;}
+.shoppingCart i{background: url(../img/index/bar_icon.png) -96px -10px no-repeat;width: 22px;height: 20px;display:block;margin-left: 5px;}
+.amount{width: 25px;height: 15px;border-radius: 10px;background-color:#d4362a;line-height: 15px;margin: 5px 0 7px;display: inline-block;}
+.dingDan{width: 35px;height: 44px;margin-top: 12px;text-align: center;cursor: pointer;}
+.dingDan i{width: 16px;height: 19px;display: inline-block;background: url(../img/index/bar_icon.png) -125px -11px;margin-top: 6px;}
+.quan{width: 35px;height: 44px;margin-top: 14px;text-align: center;cursor: pointer;}
+.quan i{width: 21px;height: 15px;display: inline-block;background: url(../img/index/bar_icon.png) -147px -11px;margin-top: 6px;}
+.erWeiMa{width: 35px;height: 35px;text-align: center;cursor: pointer;}
+.erWeiMa i{width: 15px;height: 15px;display: inline-block;background: url(../img/index/bar_icon.png) -53px -11px;margin-top: 10px;}
+.tele{width: 35px;height: 35px;	text-align: center;cursor: pointer;}
+.tele i{width: 18px; height: 18px;display: inline-block;margin-top: 9px;background: url(../img/index/bar_icon.png) -32px -10px;}
+.toTop{width:35px;height: 35px;text-align: center;cursor: pointer;}
+.toTop i{width: 18px;height: 14px;background: url(../img/index/bar_icon.png) -11px -12px;display: inline-block;margin-top: 8px;}
+.person:hover,.shoppingCart:hover,.dingDan:hover,.quan:hover,.erWeiMa:hover,.tele:hover,.toTop:hover{background: #d6362a;}
+
+
+/*footer*/
+.footerWrap{width: 100%; height: 341px;background-color: #f7f7f7;border-top: 1px solid #efefef;padding-top: 25px;}
+footer{width: 1190px;}
+.footerLists{float: left;width: 238px;height: 112px;}
+.footerLists span{width: 57px;height: 57px;background:url(../img/index/icon.png);display: inline-block;margin-left: 90px;}
+.footerTit,.slogan{height: 36px;line-height: 36px;font-weight: bold;width: 238px;text-align: center;color: #434a54;}
+.slogan{height: 18px;line-height: 18px;font-weight: normal;}
+.firstList span{background-position:-70px -40px;}
+.secondList span{background-position:-130px -40px;}
+.thirdList span{background-position:-190px -40px;}
+.forthList span{background-position:-10px -100px;}
+.fifthList span{background-position:-70px -100px;}
+.footerLists a:hover p{color: #d6362a;}
+
+.footer_line{margin: 0 auto;margin-top: 42px;width: 100%;}
+
+.footerUl{width: 980px;height: 130px;margin: 0 auto;margin-top: 42px;}
+.f_ul{height: 64px;float: left;padding: 0 53px;border-right: 1px dotted #d7d6d6;}
+.f_ul:last-child{border-right: 0;}
+.f_ul li{height: 18px;line-height: 18px;}
+.f_ul li a{color: #4c4c4c;}
+.f_ul li a:hover{color: #d6362a;}
+.f_ul li span{display: inline-block;width: 24px;height: 24px;background: url(../img/index/nav_icon.png);}
+.f_ul .xinshou{background-position: -14px -340px;}
+.f_ul .zhifu{background-position: -11px -367px;}
+.f_ul .peisong{background-position: -10px -389px;}
+.f_ul .shouhou{background-position: -13px -413px;}
+.f_ul .kehu{background-position: -13px -438px;}
+.f_ul_tit{font-weight: bold;margin: 0;padding: 0;margin-bottom: 10px;}
+
+.hotline{font-weight: bold;color: #4c4c4c;width: 1190px;text-align: center;height: 24px;line-height: 24px;margin-top: -35px;}
+.hotline i{width: 24px;height: 24px;background:url(../img/index/nav_icon.png) -10px -464px;}
+
+
+/*copyright*/
+.copyrightWrap{width: 100%;height: 55px;background-color: #333333;padding-top: 30px;}
+.copyright{width: 1190px;color: #c2c2c2;}
+.copyright ul{height: 24px;width:600px;margin:0 auto;}
+.copyright ul li{float: left;height: 12px;line-height: 12px;padding: 0 18px 0 16px;border-right: 1px solid #c2c2c2;}
+.copyright ul li:last-child{border-right: 0;}
+.copyright ul li a{color: #c2c2c2;}
+.copyright ul li a:hover{color: #fff;}
+.copyright p{width: 1190px;text-align: center;}
+
+/*登陆和注册页面*/
+/*头部*/
+.loginTop{width: 1349px;height: 129px;}
+.loginLogo{display: block;float: left;margin: 20px 0 0 180px;}
+
+/*中部注册区域*/
+.loginContWrap{width: 100%;height: 523px;background: url(../img/login/login_ad.jpg) center;border-bottom: 3px solid #fea660;}
+.loginCont{width: 990px;}
+.loginBox{float: right;width: 313px;margin:50px 26px 0 0;background-color: #fff;padding: 0 22px;height: 438px;position: relative;}
+.loginBoxTop{width: 313px;height: 53px;overflow: hidden;}
+.loginBoxTit{font-size: 16px;font-weight: normal;height: 53px;line-height: 53px;display: inline-block;float: left;}
+.hongbao{display: inline-block;width: 50px;height: 55px;position: absolute;top: 135px;left: -30px;background: url(../img/login/login-png.png);}
+
+/*登陆和注册页面的footer*/
+.loginCopyRightWrap{background-color: #fff;height: 85px;}
+.loginCopyRight{color: #000;}
+.loginCopyRight ul{margin-top: 10xp;}
+.loginCopyRight ul li a{color: #000;}
+.loginCopyRight ul li{border-color: #000;}
+.loginCopyRight ul li a:hover{color: #d13926;}
+
+
+
+
+/*猜你喜欢*/
+.likeWrap{width: 100%;height: 301px;border-top: 1px solid #d4362a;margin: 70px 0 55px 0;overflow: hidden;}
+.like{width: 1190px;height: 297px;border: 1px solid #e4e4e4;border-top: 0; border-top: 3px solid #d4362a;}
+.likeTit{width: 1150px;height: 30px;padding: 0 20px;}
+.likeTit span{display: inline-block;text-align: left;height: 30px;line-height: 30px;float: left;}
+.likeTit a{float: right;display: inline-block;height: 30px;line-height: 30px;}
+.likeTit a i{width: 11px;height: 11px;background: url(../img/index/icon.png) -190px -130px;display: inline-block;margin: 10px 5px 0 0;}
+
+.likeLists li{float: left;width: 170px;height: 230px;padding: 2px;border: 1px solid #fff;margin:0 30px;}
+.likeLists li img{width: 170px;height: 170px;}
+.likeLists li:hover{border-color: #d4362a;}
+.likeLists li p{line-height: 18px;text-align: left;}
+.likeLists li a span{color: #d4362a;line-height: 18px;}

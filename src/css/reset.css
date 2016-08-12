@@ -1,0 +1,8 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img { margin:0; padding:0; }
+a{ text-decoration:none;color: #000;}
+img{ border:none;}
+ul,ol,li{ list-style:none;}
+.left{ float:left;}
+.right{ float:right;}
+body{font:12px "微软雅黑"; background:#fff; width:100%;font-weight:normal;}
+.topBanner,.navWrap,.nav,.logo,.bannerTop,.bannerMain,.necessarySnacks,.try,.goodSelling,.contents,footer,.copyright,.pro,.proDetail,.like,.loginTop,.loginCont,.cartTop,.cartCont,.box,.mayFl2,.mayFl3,.mayFl4,.contentFl{margin:0 auto;}

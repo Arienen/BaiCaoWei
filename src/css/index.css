@@ -1,0 +1,113 @@
+/*topBanner*/
+.topBanner{width: 1190px; height: 130px;}
+
+/*Banner*/
+.bannerMain{width: 1192px;height: 515px;position: relative;}
+.classify{width: 245px;height: 512px;border: 1px solid #dfdfdf;margin-top: 1px;border-top: 0;position: relative;float: left;}
+.menus{height: 73px;border-bottom: 1px dashed #e7e7e7;position: relative;}
+.menus h3 a{font-size: 16px;display: block;height: 28px;line-height: 28px;margin-left:23px;padding-top: 8px;color: #434a54;} 
+.leftList li{float: left;height: 38px;line-height:38px;margin-left: 25px;}
+.leftList li a{color: #434a54;}
+.classify .menu7{border-bottom: 0;}
+.menus:hover{background-color: #d4362a;border-bottom: #d4362a;}
+.menus:hover a{color: #fff;}
+.menus:hover span{background-position: -250px -10px;}
+.menus span{width: 9px;height: 13px;background: url(../img/index/icon.png) -130px -10px; display: inline-block;position: absolute;left:212px;top: 20px}
+
+.boxes{width: 488px;height:512px;position: absolute;left: 248px;top: 0;}
+.hideBox{display: none;position: absolute;top: 0;width: 461px;border: 1px solid #d4362a;padding:0 0 32px 25px;z-index: 5;background-color: #f8f8f8;}
+.hideBox ul li{float: left;padding: 0 10px; border-right: 2px solid #b3b3b3;color: #434a54;height: 12px;line-height: 12px;}
+.hideBox ul li a{color: #434a54;}
+.hideBox ul li a:hover{color: #d4362a;text-decoration: underline;}
+.hideBox h3{display: block;clear: both;line-height: 42px;height: 42px;padding-top: 18px;color: #434a54;}
+
+.bannerPic{width: 941px;height: 510px;margin: 2px 0 0 4px;float: left;position: relative;}
+.bannerPic a{display: block;position: absolute;left: 0;top: 0;width: 941px;height: 510px;;}
+.banner1{background: url(../img/index/bannerApp.jpg);}
+.bannerPic .banner2{background: url(../img/index/banner621.jpg);display: none;}
+.one,.two{width: 25px;height: 25px;border-radius: 25px;background-color: #000;color: #fff;position: absolute;top: auto;left: 404px;bottom: 15px;text-align: center;line-height: 25px;cursor: pointer;}
+.two{left: 439px;}
+
+
+/*Content*/
+/*necessarySnacks*/
+.necessarySnacks{width: 1191px; height: 385px;padding-top: 38px;}
+.title1{height: 28px;line-height: 28px;font-size: 18px;color: #515151;padding-left: 10px;}
+.title1 span{font-size: 14px;font-weight: normal;margin-left: 4px;}
+.necessarySnacks ul li{float: left;margin-right: 5px;}
+.necessarySnacks ul li:last-child{margin-right: 0;}
+
+/*newToTry*/
+.newToTry{width: 100%;height: 396px;}
+.bg1{width: 100%;height: 20px; background: url(../img/index/bg-1.png);}
+.newToTryWrap{width: 100%;height: 380px;background-color: #8bccdd;}
+.try{width: 1193px;height: 379px;background-color:#8bccdd; }
+.try ul li{float: left;width: 224px;height: 321px;border: 1px solid #e9e9e9;background-color: #fff;margin:2px 0 0 14px;}
+.try ul li:first-child{margin-left: 7px;}
+.try ul li a img{border: 1px solid #f1f1f1;margin: 10px 0 0 10px;}
+.proName{padding:0 10px;margin-top:7px;line-height: 24px;}
+.price{color: #d4362a;font-weight: bold;font-size: 22px;padding-left: 10px;}
+.price span{color: #999;font-size: 12px;font-weight: normal;text-decoration: line-through;}
+.bg2{width: 100%;height: 20px; background: url(../img/index/bg-2.png);position: relative;top: -18px;}
+
+/*goodSelling*/
+.goodSellingWrap{width: 100%;height: 400px;background-color: #f6f1ee;margin-top: 5px;}
+.goodSelling{width: 1191px;height: 400px;position: relative;}
+.gooodSellTable{float: left;}
+.gooodSellTable td{width: 110px;height: 110px;}
+.gooodSellTable img{width: 110px;height: 110px;}
+.gooodSellTable a{display: inline-block;position: relative;}
+.gooodSellTable .big{width: 230px;height: 230px;}
+.tablePrice{height: 24px;line-height: 24px;color: #fff;background-color: #d4362a;padding: 0 10px;position: absolute;top: auto;left: auto;right: 0;bottom: 0;display: inline-block;font-size: 16px;}
+.floor3{margin-left: 10px;display: inline-block;width: 730px;height: 352px;float: left;margin-top: 5px;}
+.floor3 img{width: 730px;height: 352px;}
+.freshNuts,.sweetDriedFruits,.realMeat,.characteristicCake{position: absolute;display: none;left: 0;top: 0;}
+.freshNuts{display: block;}
+.F3rightBtn{z-index: 5;float: right;}
+.F3rightBtn li a{display: inline-block;width: 40px;height: 40px;border-radius: 80px;background-color: #fff;line-height: 20px;text-align: center;font-size: 16px;margin-top: 10px;padding: 20px;}
+.F3rightBtn li a:hover,.on{color: #d4362a;font-weight: bold;}
+.F3rightBtn li:first-child a{margin-top: 35px;}
+
+.bg3{width: 100%;height: 20px;background: url(../img/index/bg-3.png);}
+
+
+
+/*contents*/
+.contents{width: 1191px;height: 531px;margin-top: 20px;overflow: hidden;}
+.clear{clear:both;}
+.foods{width: 720px;float: left;}
+.listOfGoods{width: 949;height: 530px;overflow: hidden;}
+.nuts{margin-top: 40px;border-top: 1px solid #d14441;}
+.colorfulFruits{border-top: 1px solid #fc8e3d;}
+.meatAndSeafood{border-top: 1px solid #038ecf;}
+.braisedFood{border-top: 1px solid #f7a901;}
+.confectionery{border-top: 1px solid #f04e99;}
+.Xinjiang{border-top: 1px solid #87b424;}
+.giftBox{border-top: 1px solid #a91807;}
+
+
+.titleName{float: left;}
+.bd{width: 728px;height:530px;float: left;position: relative;}
+.lists{width: 728px;position: absolute;left: 0;top: 0;}
+.lists li{float: left;width: 192px;height: 258px;margin: 0 0 10px 38px;}
+.lists li img{width: 190px;height: 190px;}
+.listTitle{line-height: 18px;font-size: 14px;}
+.listTitle a{color: #434a54;display: block;}
+.listPrices{ height: 28px;line-height: 28px;color: #d4362a;font-size: 18px; }
+
+
+.labelList{float: right;position: relative;width: 220px;height: 530px;background-color: #fefbfd;}
+.labelList ul li{float: left;}
+.labelList ul li a{display: inline-block;width:35px;height: 35px;border-radius: 35px;padding: 15px;background-color: #fff;margin: 10px 4px;text-align: center;font-size: 14px;}
+.bottomImg{position: absolute;top: auto;left: 0;bottom: 0;}
+
+/*隐藏*/
+.healthNut,.leisureFood,.freezeDried,.authenticBeef,.fish,.chicken,.duck,.cake,.redJujube{display: none;}
+
+/*显示*/
+
+
+
+
+
+

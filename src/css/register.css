@@ -1,0 +1,18 @@
+/*中部登陆区域*/
+.loginBox{height: 316px;margin: 100px 26px 0 0;}
+.toLogin{float: right;font-size: 16px;color: #39a6e2;height: 53px;line-height: 53px;}
+form{margin-top: 24px;}
+.teleNumBox,.passWordBox{width: 260px;height: 46px;position: relative;margin-bottom: 15px;}
+.teleNum,.passWord{width: 260px;height: 46px;border:1px solid #ccc;font-family: "微软雅黑";padding-left: 45px;font-size: 18px;}
+.teleNumBox i,.passWordBox i{position: absolute; display: inline-block;width: 15px;height: 16px;top: 15px;left: 10px;background: url(../img/index/icon.png);z-index: 1;}
+.teleNumBox i{background-position: -130px -100px;}
+.passWordBox i{background-position: -160px -100px;}
+.forgetPW{float: right;height: 22px;line-height: 22px;}
+.dengLu{margin-top: 13px;width: 310px;height: 48px;background-color:#ee6868; border:0;outline: none;cursor: pointer;color: #fff;font-size: 18px;font-family: "微软雅黑";}
+
+
+
+
+
+
+

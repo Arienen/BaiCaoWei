@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的购物车_百草味官方商城</title>
+</head>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/cart.css">
+<script src="../assets/jquery-1.12.0.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cart.js"></script>
+<body>
+	<!-- nav -->
+	<div class="navWrap">
+		<div class="nav">
+			<p class="firstline">您好，<span><a href="#">请登陆</a></span></p>
+			<p class="freeToLogin"><a href="#">免费注册</a></p>
+			<ul>
+				<li><a href="#" class="navlist">我的订单</a></li>
+				<li><a href="#" class="navlist">我的收藏</a></li>
+				<li class="box">
+					<a href="#" class="contactService">联系客服<span></span></a>
+					<div class="serviceBox">
+						<p>联系客服<span></span></p>
+						<p class="teleNum">0571-56588825</p>
+						<p>电话咨询</p>
+					</div>
+				</li>
+				
+				<li class="box">
+					<a href="#" class="appDownload">app下载<span></span></a>
+					<div class="appDownloadBox">
+						<p>app下载<span></span></p>
+						<img src="../img/index/app_code300.png" alt="">
+					</div>
+				</li>
+				<li class="box">
+					<a href="#" class="more">更多<span></span></a>
+					<div class="moreBox">
+						<p>更多<span></span></p>
+						<ul>
+							<li><a href="#">收藏本站</a></li>
+							<li><a href="#">新浪微博</a></li>
+							<li><a href="#">百度贴吧</a></li>
+						</ul>	
+					</div>
+				</li>
+			</ul>	
+		</div>
+	</div>
+
+	<!-- top -->
+	<div class="cartTopWrap">
+		<div class="cartTop">
+			<a href="../index.html">
+				<img src="../img/cart/logo.jpg" alt="">
+			</a>
+			<div class="shopFlow">
+				<div class="line"></div>
+				<div class="step1">
+					<p class="circleBg"></p>
+					<span></span>
+					<p class="stepInfo">我的购物车</p>
+				</div>
+				<div class="step2">
+					<p class="circleBg"></p>
+					<span></span>
+					<p class="stepInfo">结算</p>
+				</div>
+				<div class="step3">
+					<p class="circleBg"></p>
+					<span></span>
+					<p class="stepInfo">付款</p>
+				</div>
+				<div class="step4">
+					<p class="circleBg"></p>
+					<span></span>
+					<p class="stepInfo">等待出库</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- 购物车内容区域 -->
+	<div class="cartCont">
+		<h3>全部商品</h3>
+		<ul class="cartTit">
+			<li>商品</li>
+			<li>数量</li>
+			<li>单价</li>
+			<li>小计</li>
+			<li>操作</li>
+		</ul>
+		
+		<!-- 购物车的商品 -->
+		<div class="products">
+			<div class="proLists">
+				<!-- <img src="../img/details/1.jpg" alt="" class="suoluetu"> -->
+				<div class="miaoshu">
+					<!-- <p class="proTitle">【夏威夷果200g/袋*2袋】</p>
+					<span class="discript">零食坚果奶油夏威夷果</span> -->
+				</div>
+				<div class="datas">
+					<div class="amount_box">
+						<span class="amountIcon sub">-</span>
+	                    <input type="text" value="1" class="amount_input" id="J_ItemAmount">
+	                    <span class="amountIcon plus">+</span>
+	                </div>
+	                <!-- <p class="proPrice">￥23.90</p> -->
+					<!-- <p class="totalProPrice">￥23.90</p> -->
+					<div class="do">
+						<p class="dele">删除</p>
+						<p class="toFavorite">移入收藏夹</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<div class="cartBott">
+			<p class="isSelected">已选择<span>0</span>件商品</p>
+			<p class="totalPrice">总价（不含运费）：￥<span>0.00</span></p>
+			<p class="hasSave">已节省：￥<span>0.00</span></p>
+			<button>去结算 ></button>
+		</div>
+	</div>
+
+
+
+	<!-- 猜你喜欢 -->
+	<div class="likeWrap">
+		<div class="like">
+			<p class="likeTit">
+				<span>根据浏览猜你喜欢</span>
+				<a href="#">
+					<i></i>
+					换一批
+				</a>
+			</p>
+			<div class="likeLists">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="../img/details/like1.jpg" alt="">
+							<p>【蟹黄青豆180g/袋】休闲零食炒货独特蟹香味蟹黄青豆</p>
+							<span>￥8.9</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../img/details/like2.jpg" alt="">
+							<p>【蟹黄青豆180g/袋】休闲零食炒货独特蟹香味蟹黄青豆</p>
+							<span>￥8.9</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../img/details/like3.jpg" alt="">
+							<p>【蟹黄青豆180g/袋】休闲零食炒货独特蟹香味蟹黄青豆</p>
+							<span>￥8.9</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../img/details/like4.jpg" alt="">
+							<p>【蟹黄青豆180g/袋】休闲零食炒货独特蟹香味蟹黄青豆</p>
+							<span>￥8.9</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../img/details/like5.jpg" alt="">
+							<p>【蟹黄青豆180g/袋】休闲零食炒货独特蟹香味蟹黄青豆</p>
+							<span>￥8.9</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- footer -->
+	<div class="footerWrap">
+		<footer>
+			<ul>
+				<li class="firstList footerLists">
+					<span></span>
+					<a href="#">
+						<p class="footerTit">正品保障</p>
+						<p class="slogan">品牌直销 值得信赖</p>
+					</a>
+				</li>
+				<li class="secondList footerLists">
+					<span></span>
+					<a href="#">
+						<p class="footerTit">快速发货</p>
+						<p class="slogan">24小时内出库 全国9仓发货<br>（促销日除外）</p>
+					</a>
+				</li>
+				<li class="thirdList footerLists">
+					<span></span>
+					<a href="#">
+						<p class="footerTit">免运费</p>
+						<p class="slogan">满68包邮<br>（偏远地区除外）</p>
+					</a>
+				</li>
+				<li class="forthList footerLists">
+					<span></span>
+					<a href="#">
+						<p class="footerTit">30天</p>
+						<p class="slogan">无理由退货</p>
+					</a>
+				</li>
+				<li class="fifthList footerLists">
+					<span></span>
+					<a href="#">
+						<p class="footerTit">优质服务</p>
+						<p class="slogan">贴心服务 放心购物</p>
+					</a>
+				</li>
+			</ul>
+
+			<img src="../img/index/footer_line.png" alt="" class="footer_line">
+			
+			<div class="footerUl">
+				<ul class="f_ul">
+					<li class="f_ul_tit">
+						<span class="xinshou"></span>
+						<a href="#">新手指南</a>
+					</li>
+					<li><a href="#">注册协议</a></li>
+					<li><a href="#">购物流程</a></li>
+				</ul>
+				<ul class="f_ul">
+					<li class="f_ul_tit">
+						<span class="zhifu"></span>
+						<a href="#">支付说明</a>
+					</li>
+					<li><a href="#">商品发票</a></li>
+					<li><a href="#">付款方式</a></li>
+				</ul>
+				<ul class="f_ul">
+					<li class="f_ul_tit">
+						<span class="peisong"></span>
+						<a href="#">配送说明</a>
+					</li>
+					<li><a href="#">配送方式</a></li>
+					<li><a href="#">配送范围及费用</a></li>
+				</ul>
+				<ul class="f_ul">
+					<li class="f_ul_tit">
+						<span class="shouhou"></span>
+						<a href="#">售后服务</a>
+					</li>
+					<li><a href="#">服务承诺和保障</a></li>
+					<li><a href="#">退换货流程及注意事项</a></li>
+				</ul>
+				<ul class="f_ul">
+					<li class="f_ul_tit">
+						<span class="kehu"></span>
+						<a href="#">客户服务</a>
+					</li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">问卷调查</a></li>
+				</ul>
+				
+			</div>
+			<p class="hotline"><i></i>客服热线：0571-56588825（每天9:00—18:00）</p>
+		</footer>
+	</div>
+
+
+	<!-- copyright -->
+	<div class="copyrightWrap">
+		<div class="copyright">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">品牌介绍</a></li>
+				<li><a href="#">517吃货节</a></li>
+				<li><a href="#">男神来了</a></li>
+				<li><a href="#">小味公益</a></li>
+				<li><a href="#">小味快速达</a></li>
+				<li><a href="#">百草味贴吧</a></li>
+			</ul>
+			<p>©2011-2014 Baicaowei All Rights Reserved. 百草味商城 杭州郝姆斯食品有限公司版权所有</p>
+		</div>
+	</div>
+</body>
+</html>

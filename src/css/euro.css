@@ -1,0 +1,75 @@
+body{min-height: 13600px;background: url(../img/euro/body_bg.jpg);margin: 0 auto;}
+
+/*banner*/
+.banner{width: 100%;height: 710px;background: url(../img/euro/pc_banner.jpg) center;background-size: cover;}
+
+
+/*mayFl1*/
+.mayFl1{width: 100%;height: 500px;background: url(../img/euro/coup_bg.jpg) center; background-size: cover;}
+.box{width: 1134px;height: 350px;position: relative;}
+.box ul li{float: left;position: absolute;}
+.box ul li:nth-of-type(1){top: 50px;left: 22px;}
+.box ul li:nth-of-type(2){top: 0px;left: 295px;}
+.box ul li:nth-of-type(3){top: 50px;left: 542px;}
+.box ul li:nth-of-type(4){top: 0px;left: 820px;}
+
+/*mayFl2*/
+.mayFl2,.mayFl3,.mayFl4{width: 1045px;margin-top: 25px;overflow: hidden;}
+.mayFlTit{width: 1040px;height: 99px;}
+.mayFl1Tit{background: url(../img/euro/pc_may2.jpg) center;}
+.baiwanKB,.baokuanRJ{width: 498px; height: 300px;display: inline-block;margin:5px;}
+.baiwanKB{background: url(../img/euro/pc_mayf1_03.jpg);margin-left: 15px;}
+.baokuanRJ{background: url(../img/euro/pc_mayf1_05.jpg);}
+.mayFlList{overflow: hidden;margin-left: 5px;}
+.mayFlList li{float: left;width: 330px;height: 370px;margin: 5px;}
+
+/*mayFl3*/
+.mayFl3Tit{background: url(../img/euro/pc_may3.jpg) center;}
+.mayFl3List li{width: 250px;height: 252px;}
+
+/*mayFl4*/
+.mayFl4Tit{background: url(../img/euro/pc_may4.jpg) center;}
+
+
+/*contentFl1*/
+.contentFl{width: 1110px;overflow: hidden;}
+.contentTit{width: 1110px;height: 202px;margin-bottom: 20px;}
+.contentFl1Tit{background: url(../img/euro/pc_may_tit1.jpg) no-repeat;}
+.contentFlList li img{float: left;width: 267px;height: 282px;margin: 5px;}
+.contentFlList{margin-bottom: 20px;overflow: hidden;}
+
+.contentTit span{width: 106px;height: 104px;background-color: #fff;z-index: 2;display: inline-block;margin:99px 0 0 26px;border-radius: 100px;cursor: pointer;opacity: 0;}
+
+/*contentFl2*/
+.contentFl2{background: url(../img/euro/pc_may_tit2.jpg) no-repeat;}
+
+/*contentFl3*/
+.contentFl3{background: url(../img/euro/pc_may_tit3.jpg) no-repeat;}
+
+/*contentFl4*/
+.contentFl4{background: url(../img/euro/pc_may_tit4.jpg) no-repeat;}
+
+/*contentFl5*/
+.contentFl5{background: url(../img/euro/pc_may_tit5.jpg) no-repeat;}
+
+/*contentFl6*/
+.contentFl6{background: url(../img/euro/pc_may_tit6.jpg) no-repeat;}
+
+/*contentFl7*/
+.contentFl7{background: url(../img/euro/pc_may_tit7.jpg) no-repeat;}
+
+/*contentFl8*/
+.contentFl8{background: url(../img/euro/pc_may_tit8.jpg) no-repeat;}
+.contentFl8 li img{width: 330px;height: 370px;margin: 5px 19px 0;}
+
+
+
+/*side*/
+.side{width: 135px;height: 109px;position: fixed;top: 50%;left: auto;right:-20px;color: #fff;overflow: hidden;font-size: 14px;}
+.backToIndex,.toTop{width: 135px;height: 54px;cursor: pointer;margin-left: 64px;opacity: 0.6;}
+.backToIndex a,.toTop p{color: #fff;display: inline-block;}
+.backToIndex{background: url(../img/euro/side_icon06.png) left no-repeat #000;margin-bottom: 1px;}
+.toTop{background: url(../img/euro/side_icon05.png) left no-repeat #000;}
+.backToIndex a,.toTop p{margin-left: 52px;height: 54px;line-height: 54px;}
+.toTop p{margin-left: 25px;}
+
